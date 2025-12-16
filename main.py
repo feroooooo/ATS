@@ -454,7 +454,7 @@ def main():
         early_stop_callback = EarlyStopping(
             monitor='train_loss',
             min_delta=0.001,
-            patience=5,
+            patience=150,
             verbose=False,  
             mode='min' 
         )

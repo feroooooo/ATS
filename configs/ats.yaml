@@ -21,7 +21,7 @@ models:
       output_dim: ${downsample_dim}
 
 data:
-  data_dir: /xxx/Preprocessed_data_250Hz_whiten # Update this path to your actual data directory
+  data_dir: /archive/private/yangzheng/zwj/project/nips2026/data/things_eeg/ubp_eeg/Preprocessed_data_250Hz_whiten # Update this path to your actual data directory
   selected_ch: ['P7', 'P5', 'P3', 'P1','Pz', 'P2', 'P4', 'P6', 'P8', 'PO7', 'PO3', 'POz', 'PO4', 'PO8','O1', 'Oz', 'O2']
   model_type: ${vision_backbone}
   train_batch_size: 1024

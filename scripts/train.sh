@@ -14,7 +14,7 @@ LAMBDA_IMG2EEG=0.0
 LAMBDA_MMD=0.0
 LAMBDA_MAP=0.0
 EXP_SETTING="intra-subject"
-DEVICE="cuda:0"
+DEVICE="cuda:6"
 CONFIG="configs/ats.yaml"
 
 python main.py \
